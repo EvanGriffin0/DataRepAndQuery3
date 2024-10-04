@@ -20,6 +20,8 @@ import NavigationBar from './components/navbar';
 
 function App() {
   return (
+
+    //adjusted the navigation bar to call the components and load them on page
     <div>
       <Router>
         <NavigationBar />
@@ -28,7 +30,7 @@ function App() {
           <Route path="/read" element={<Header />} />
           <Route path="/create" element={<Footer />} />
         </Routes>
-        <Footer />
+       
       </Router>
     
     </div>
