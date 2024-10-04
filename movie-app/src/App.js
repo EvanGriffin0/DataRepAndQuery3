@@ -1,16 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 
+//updated app.js to call the components i created in the folder
+
+import Header from './components/header';
+import Content from './components/content';
+import Footer from './components/footer';
+
+
+//called instances of each component
 function App() {
   return (
-      //created hello world and added a current real time method
-
     <div>
-      <h1>Hello World</h1>
-      <h2>It is {new Date().toLocaleTimeString()}</h2>
+      <Header />
+      <Content />
+      <Footer />
     </div>
-
-
   );
 }
 
