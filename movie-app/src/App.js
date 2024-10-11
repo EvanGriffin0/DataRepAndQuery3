@@ -11,6 +11,8 @@ import Header from './components/header';
 import Content from './components/content';
 import Footer from './components/footer';
 import NavigationBar from './components/navbar';
+import Read from './components/read';
+import Create from './components/create';
 
 
 
@@ -27,8 +29,8 @@ function App() {
         <NavigationBar />
         <Routes>
           <Route path="/home" element={<Content />} />
-          <Route path="/read" element={<Header />} />
-          <Route path="/create" element={<Footer />} />
+          <Route path="/read" element={<Read />} />
+          <Route path="/create" element={<Create />} />
         </Routes>
        
       </Router>
