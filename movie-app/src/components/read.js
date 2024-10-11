@@ -37,7 +37,7 @@ const Read = () => {
     return (
         //return div containing h3 element
         <div>
-            <h3>Hello from read component </h3>
+            <h3>Movies :</h3>
             <Movies myMovies={data}/>
         </div>
     );
