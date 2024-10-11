@@ -1,6 +1,7 @@
 
 //import movies from file
 import Movies from "./movies"
+import MovieItem from "./MovieItem";
 
 //added array of objects called data
 
